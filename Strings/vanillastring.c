@@ -4,7 +4,7 @@
 int printString() {
     char word[] = {'d', 'a', 'n', 'i', 'e', 'l', '\0'};
     char word2[] = {"daniel"};
-    int arrSize = sizeof(word2) / sizeof(word2[0]);
+    int arrSize = sizeof(word2) / sizeof(word2[0]);     // byte format
 
     // print same output
     printf("%s\n", word);

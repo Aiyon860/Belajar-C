@@ -38,7 +38,26 @@ int names() {
 }
 
 int example() {
-    
+    char wadahNama[50];
+    char wadahSementara[] = {};
+    char wadahNama2[50] = {};
+
+    scanf("Masukkan nama pertama: ");
+    gets(wadahSementara);
+
+    strcpy(wadahNama, wadahSementara);
+    printf("%s\n", wadahNama);
+
+    scanf("Masukkan nama kedua: ");
+    gets(wadahNama2);
+
+    strcat(wadahNama2, wadahNama);
+    printf("%s\n", wadahNama2);
+    printf("Ukuran string menggunakan sizeof(): %d\nUkuran string menggunakan strlen(): %d\n", sizeof(wadahNama2), strlen(wadahNama2));
+
+    printf("Membandingkan isi Array of Char:\n");
+    printf("%i\n", strcmp(wadahNama, wadahNama2));
+
     return 0;
 }
 

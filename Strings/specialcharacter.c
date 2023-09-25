@@ -8,7 +8,7 @@ int sentences(){
 
     printf("3.\tThis character \\ is backslash character\n");
 
-    printf("4.\tWhat is this \0 character mean?\n"); // doesn't appear
+    printf("4.\tWhat is this \0 character mean?\n");    // \0 forcing to stop/close the program
 
     return 0;
 }
