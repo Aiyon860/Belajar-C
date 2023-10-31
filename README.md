@@ -1,1 +1,2 @@
-# Belajar-C
+# Belajar C Dasar
+## Bebas digunakan untuk pembelajaran.

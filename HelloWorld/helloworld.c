@@ -11,10 +11,14 @@ int hello(char nama[], char quote[]) {
     return 0;
 }
 
+int sum(int a, int b) {
+    return a + b;
+}
+
 // main function
 int main() {
     hello("Daniel Adi Pratama", "Ganteng dan Intelek");
-
+    printf("%d\n", sum(5, 5));
     return 0;
 }
 
